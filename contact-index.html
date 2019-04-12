@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>nodmotors</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="white">
+		<a href="#!" title="nodmotors"> 
+			<img src="/assets/images/static/logo.png">
+		</a>
+		<nav>	
+		<ul class="nav-menu">
+			<li class="menu-content">
+				<a class="cars" href="index.html" title="Cars">Cars</a>
+			</li>
+			<li class="menu-content">
+				<a class="terms" href="#!" title="terms and conditions">Terms and Conditions</a>
+			</li>
+			<li class="menu-content  active-page">
+				<a class="contact" href="#!" title="contact">Contact</a>
+			</li>
+			<li class="menu-content book">
+				<a href="#!" title="BOOk">Book</a>
+			</li>
+		</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="main-information">
+
+			<div>
+				<h1>Informatio</h1>
+				<div class="contact-info">	
+					<div>
+						<img src="/assets/images/static/contact-phone.png">
+						<span>(+995) 595 483 217</span>
+					</div>
+					<div>
+						<img src="/assets/images/static/contact-pin.png">
+						<span>Machavariani STR. 6</span>
+					</div>
+					<div>
+						<img src="/assets/images/static/contact-mail.png">
+						<span>info@nodmotors.ge</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="input-form">
+				<h1>Message Us</h1>
+				<div id="input-form-wrapper">
+					<input type="text" placeholder="Name" name="">
+					<input type="text" placeholder="Subject" name="">
+					<input type="text" placeholder="Email" name="">
+					<textarea placeholder="Message" ></textarea> 
+
+					<input type="submit" onclick="contactSubmitClicked()" value="Send">
+				</div>
+				<div id="booking-success" class="contact-booking-success">
+					<img src="/assets/images/static/check.png">
+					<p>	
+						Thank you! <br />
+						Your message has been <br />
+						sent successfully.
+					</p>
+				</div>		
+			</div>
+		</div>
+
+		<div id="maps" class="maps"></div>
+	</div>
+
+	<footer>
+		<div class="footer">
+				<a href="https://smartacademy.ge/" style="smartacademy"></a>
+				<img src="/assets/images/static/smlogo.png">
+			<div class="nodmotors-ge">
+				<span>© nodmotors GE 2018</span>
+			</div>
+			<div class="mail-number">
+				<a href="#!" style="number"> (+995) 595 483 217 </a>
+				<a href="#!" style="mail"> info@nodmotors.ge </a>	
+			</div>
+		</div>		
+	</footer>
+
+	<script type="text/javascript" src="/assets/js/script.js"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC43ujnUrILzWru00hPRCp4SZXIMrnursA&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
+
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+ეს ლინკი უნდა ჩაისვას head-ში რომ გამოჩდეს მაილის რუქის და ტელეპონის იკონკები.
+
+
+
+
+main.pic უნდა ჩისვას div-ში
+nodmotors უნდა ჩაისვას როგორც before და z-index უნდა მივუნიჭოთ.
+
+
+display:flex;
+flex: 1 1 47%
+align-items:center;
+widt: calc(100% - 100px); 
+რომ გასწორდე სურათები
+
+
+
+
+ -->
